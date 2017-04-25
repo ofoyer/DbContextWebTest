@@ -1,0 +1,3 @@
+﻿Enable-Migrations -ContextTypeName CarsDbContext -MigrationsDirectory Migrations\Cars
+add-migration -ConfigurationTypeName DbContextWebTest.Migrations.Cars.Configuration "InitialCreate"
+update-database -ConfigurationTypeName DbContextWebTest.Migrations.Cars.Configuration
